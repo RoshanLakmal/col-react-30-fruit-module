@@ -7,6 +7,8 @@ function App() {
   const RANDOMFRUIT = choice(foods);
   remove(foods, RANDOMFRUIT);
   const  FRUITSLEFT = foods.length;
+  // const FRUITSLEFT = remove(foods, RANDOMFRUIT).length;
+  
   return (
     <div>
       <p>I’d like one {RANDOMFRUIT}, please</p>
